@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  line-height: 1.5;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+  height: 500px;
+  width: 500px
+}
+
+.grid div {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #000000;
+}
+
+.dice {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin : auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.turn {
+  margin : auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.player-1 {
+  background: red;
+}
+
+.player-2 {
+  background: yellow;
+}
+
+.player-1-active {
+  background: red;
+}
+
+.player-2-active {
+  background: yellow;
+}
+
+.square-clicked {
+  background-color: #ffffff;
+}
